@@ -1,0 +1,119 @@
+<h1> PROGRAMA DE MOVILIDAD ERASMUS+</h1>
+<h2> Un análisis de la popularidad en 2014  </h2>
+
+<b>Autora:</b> Elisa Pardo Cuenca <br>
+<b> Fecha:</b> 24/11/2022  <br> <br>
+<b>Url: </b><a href="https://js-zbqlsm.stackblitz.io">https://js-zbqlsm.stackblitz.io</a><br>
+<b> Fuente de datos:</b> <i>Erasmus mobility statistics 2014-2019 </i> del <a href="https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en">portal oficial para datos europeos. </a> <br><br>
+
+<hr/>
+
+
+
+<h1>Introducción </h1>
+
+<p align="justify">Erasmus+ es un programa gestionado por la Comisión Europea que ofrece oportunidades de movilidad educativa abiertas tanto para el alumnado como el personal. El programa consiste en un intercambio de estudiantes (o personal asociado) entre las distintas universidades europeas con una duración cuatrimestral, semestral o anual. </p>
+
+
+<p align="justify">Son casi 50 los países que participan en el programa, de los cuales 27 son miembros de la Unión Europa. El resto de países participantes son estados externos a la Unión, como Islandia, Liechtenstein, Noruega o Turquía, entre otros países asociados.</p>
+
+<p align="justify">El portal oficial de datos europeos recoge una serie de <i>datasets</i> que contienen registros anuales con datos de los participantes y los países involucrados (edad, género, nivel de estudios, país de origen y de destino, etc.). Hemos seleccionado el <i>dataset</i> correspondiente al año 2014 para hacer un análisis sobre la partipación en el programa en ese año. </p>
+
+<h2> Enfoque del análisis</h2>
+
+<p align="justify">Debido a la popularidad de Erasmus+, son muchos los estudios que pueden ser de interés tanto para la propia comisión organizadora del programa como para los participantes. En este estudio, trataremos de responder a las siguientes preguntas con base en los datos para el año 2014:</p>
+
+<ul>
+  <li> En términos de la cantidad de personas que participan en el programa, ¿qué países destacan por una alta o baja participación? ¿Existe algún factor común entre dichos países?</li>
+  <li>¿Qué países de destino fueron los preferidos?</li>
+  <li>¿Existen diferencias de género en la participación del programa?</li>
+  <li> Según la edad de los participantes, ¿entre qué grupos es más popular el programa?</li>
+</ul>
+
+<p align="justify">Las respuestas a estas preguntas pretenden reflejar patrones sobre la popularidad de Erasmus+, según distintos puntos de vista, que la Comisión Europea puede utilizar para detectar desigualdades y promover la inclusión de los grupos con menor participación. Asimismo, este análisis también puede resultar de interés para futuros participantes, ya que se pretende poner de manifiesto tendencias sobre la edad, género y nacionalidad del público en el año 2014, así como mostrar qué destinos fueron los más elegidos. Estos son factores que pueden condicionar las preferencias de nuevos participantes a la hora de planear su implicación en el programa. </p>
+
+<h1> Resultados del análisis </h2>
+
+<p align="justify">Como se indicaba en la introducción, hemos trabajado con los datos correspondientes al año 2014. Tras la eliminación de registros con datos faltantes y/o no relevantes para nuestro análisis, se obtiene un <i>dataset</i> de 176.559 filas, donde hemos seleccionado las siguientes cuatro columnas:</p>
+
+<ul>
+  <li> Género del participante</li>
+  <li> Edad del participante</li>
+  <li> País de origen o salida</li>
+  <li> País de destino</li>
+</ul>
+
+<p align="justify">Con estos datos, hemos llevado a cabo el análisis cuyos resultados mostramos a continuación.</p>
+
+
+<h2> Popularidad en los países de origen y destino</h2>
+ 
+<p align="justify">En primer lugar, con la intención de conocer qué países de origen destacan por la participación de sus habitantes, hemos calculado la proporción de integrantes de cada uno relativa a la población total. Esto es, el porcentaje de personas de cada país con respecto al censo del mismo en el año 2014. Nótese que, teniendo en cuenta que la suma de habitantes de un país es notoriamente mayor que el grupo personas involucradas en Erasmus+ (que es incluso menor a la cantidad de estudiantes), los porcentajes resultantes son del orden de 10<sup>-1</sup>. Sin embargo, este valor permite establecer una comparación de la participación entre los distintos países. </p>
+
+
+<p align="justify">A continuación, se muestra un mapa coroplético de Europa que refleja dichos porcentajes de participación en cada país, donde las regiones coloreadas con tonos amarillentos son aquellas para las que popularidad de Erasmus+ es menor mientras que aquellas en color morado oscuro son las que destacan por tener un mayor índice de participantes con respecto a la población total. </p>
+
+
+<p align="justify">En el mapa podemos observar que los países de Europa central muestran una popularidad similar para el programa Erasmus+, a excepción de Austria, Eslovenia y Liechtenstein (véase nota del gráfico). Estos tres junto con Islandia, Finlandia, Lituania y España gozan de la mayor participación mientras que Turquía, Rumanía, Bulgaría, Macedonia del Norte y Reino Unido destacan por ser los países donde Erasmus+ es menos popular. A la vista de estos resultados, podemos deducir que los valores más extremos para la popularidad del programa se observan en los países periféricos de Europa mientras que en los países de Europa central se observan valores medios para el porcentaje de participación.</p>
+
+<p align="justify">Es interesante notar que son precisamente los países con una cultura más alejada a la europea (junto con Reino Unido, que actualmente no pertenece a la Unión Europea) son aquellos cuyos habitantes muestran una menor participación. ¿Puede este hecho responder a factores políticos y/o culturales?  </p>
+
+<p align="justify">  Por otra parte, para los casos donde el Erasmus+ es más popular, podemos destacar que se trata de países con lenguas diferentes a las de centroeuropa (alemán, francés e italiano, principalmente) como, por ejemplo, el finlandés, el islandés o el español. Esto nos induce a pensar que la alta popularidad en estos países puede responder a motivaciones lingüísticas.</p><br>
+
+
+<div id="wrap">
+  <iframe title="Porcentaje de participación en programas de Erasmus en 2014" aria-label="Map" id="datawrapper-chart-iyn1n" src="https://datawrapper.dwcdn.net/iyn1n/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="668" data-external="1"></iframe>
+
+  <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+  </script>
+</div>
+
+
+<p align="justify">Una vez estudiados los países de origen donde es más frecuente participar en Erasmus+, analicemos qué destinos fueron los más populares en el año 2014. El siguiente diagrama de barras está basado en el campo <i> país de destino </i> y muestra los diez países que recibieron mayor cantidad de participantes.</p>
+
+
+<p align="justify"> A la vista del gráfico, resulta claro que España fue el país de destino preferido de los participantes, con una diferencia de más de 5000 personas con respecto al segundo, Reino Unido. Es destacable que países como Reino Unido, Turquía o Grecia, donde los respectivos índices de participación son de los más bajos, resultaron encontrarse entre los diez destinos favoritos.   </p> 
+
+<div class="box-img-login">
+  <p align="center">
+  <iframe width="500" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR5taM3YvpNN7D2Y39X496mla0AhWSduLlkOcvj8a7Oke6V2VLHC-uc9u0vE5LWK42S9m-kJPijJwkj/pubchart?oid=1882937944&amp;format=interactive"></iframe></div>
+
+  <FONT SIZE=2><b>Url Google Sheets:</b> <a href="https://docs.google.com/spreadsheets/d/1DShNEK7n6nwIgHJLmclUb9u0C_uR2kku96Fu5zS_ob8/edit?usp=sharing
+">https://docs.google.com/spreadsheets/d/1DShNEK7n6nwIgHJLmclUb9u0C_uR2kku96Fu5zS_ob8/edit?usp=sharing
+</a></font><br><br><br>
+
+
+
+<p align="justify">La tabla inmediatamente inferior recoge los países europeos más visitados por turistas en el año 2017. Nótese que siete de los diez países del gráfico de barras superior se encuentran listados en esta tabla: España, Reino Unido, Turquía, Italia, Francia, Portugal y Austria. Esto nos conduce a pensar que puede existir una relación fuerte entre países turísticos y los países elegidos como destino para el programa Erasmus+. </p>
+
+  <div class="box-img-login">
+    <p align="center">
+    <img width="450" height="300" src=" http://drive.google.com/uc?export=view&id=1pTLYBGBl1VpE31FBa3NbltTufWZAupEj">
+  </div>
+
+  <FONT SIZE=2><b>Fuente:</b> <a href="https://www.schengenvisainfo.com/travel-guide/top-10-most-visited-european-countries/">https://www.schengenvisainfo.com/travel-guide/top-10-most-visited-european-countries/. </a></font> <br> <br>
+
+
+
+
+<h2> Popularidad de los participantes por edad y género</h2>
+
+<p align="justify">Para concluir el análisis, en esta sección presentamos el siguiente gráfico que muestra la distribución de la edad de los participantes por géneros. Para ello, hemos seleccionado los registros donde el valor para el género es <i>female</i> o <i>male</i> y hemos descartado el valor <i>undefined</i> debido a que la escasez de registros no permitía observar una distribución clara. </p>
+
+<div class="box-img-login">
+  <p align="center">
+  <img width="600" height="300" src="http://drive.google.com/uc?export=view&id=1lqOqscD0bEhcm4SEi2dQ9-ZH_htat8UB">
+</div>
+
+<FONT SIZE=2><b>Url Google Colab:</b> <a href="https://colab.research.google.com/drive/1Lf0Rxddp93F-nBSpeWShxWTLC_O0vAPq?usp=sharing">https://colab.research.google.com/drive/1Lf0Rxddp93F-nBSpeWShxWTLC_O0vAPq?usp=sharing</a></font><br><br><br>
+
+
+  <p align="justify">El gráfico anterior nos permite observar por un lado, que no existen diferencias significativas en la cantidad de participantes según el género. Además, podemos ver que el grueso de los participantes se encuentra entre veinte y treinta años, lo cual corresponde con la edad habitual de los estudiantes universitarios. Asimismo, se observan algunos pocos participantes de dieciocho y diecinueve años y mayores de treinta, estos segundos pueden corresponder a personal académico.</p>
+
+<h1> Conclusiones </h2>
+
+  <p align="justify">A lo largo del análisis nos hemos servido de distintos tipos de gráficos para tratar de observar tendencias y patrones en los datos de los participantes de Erasmus+ en 2014. En primer lugar, hemos utilizado un mapa coroplético, realizado a través de la herramienta Datawrapper, para observar los países que destacaban por tener un mayor índice de participación en el programa, medido con una probabilidad relativa a la población de cada país. Con ello, se ha observado que, en líneas generales, los países periféricos de Europa muestran los valores más extremos (superiores o inferiores) para la participación mientras que los países centroeuropeos, generalmente, gozan de un valor medio de participación similar entre los distintos países.</p>
+
+  <p align="justify"> En segundo lugar, mediante un diagrama de barras, realizado con GoogleSheets, que representa los diez países de destino más populares, hemos inducido que puede existir una relación entre los países de destino preferidos y el turismo. Por último, hemos utilizado la biblioteca Seaborn de Python para representar dos histogramas junto con su gráfica de distribución asociada para las edades de los participantes para cada género. En este caso, se ha observado que no existen diferencias significativas en la participación de hombres y mujeres y que la edad media de los mismos oscila entre veinte y treinta años, un rango razonable para el público del programa Erasmus+.</p>
+
+
